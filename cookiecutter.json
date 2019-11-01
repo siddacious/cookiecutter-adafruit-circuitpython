@@ -5,9 +5,11 @@
     "library_keywords": "",
     "author": null,
     "github_user": "adafruit",
+    "repo_name" : "Adafruit_CircuitPython_{{cookiecutter.library_name}}",
+	"github_repo_url" : "git@github.com:{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.git",
     "company": "",
-    "requires_bus_device": "",
-    "requires_register": "",
+    "requires_bus_device": "yes",
+    "requires_register": "yes",
     "other_requirements": "",
     "_extensions": ["jinja2.ext.do"],
     "_copy_without_render": ["*.github/*"]
